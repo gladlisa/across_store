@@ -1,0 +1,52 @@
+.family-description {
+  padding-inline: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.logo-yt {
+  width: 60px;
+  height: 30px;
+  color: #ff1818;
+}
+.media-links {
+  display: flex;
+  gap: 20px;
+}
+.video-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+section.family {
+  padding-block-end: 30px;
+}
+
+/**
+* responsive for larger than 768px screen
+*/
+@media (min-width: 768px){
+  .video-family {
+    width: 550px;
+    height: 330px;
+  }
+}
+/**
+* responsive for larger than 992px screen
+*/
+@media (min-width: 992px){
+  .family-description-2 {
+    padding-inline: 14px;
+  }
+  .family-description {
+    padding-inline: 40px;
+  }
+  .video-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

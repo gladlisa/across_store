@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="style"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+
+    <!--
+      - primary meta tags
+    -->
+    <title>ACROSS STORE</title>
+    <meta name="title" content="ACROSS STORE" />
+    <meta name="description" content="across store production" />
+
+    <!--
+      - favicon
+    -->
+    <link
+      rel="shortcut icon"
+      href="/images/favicon-32x32.png"
+      type="image/png"
+    />
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comme:wght@300;400;500;700&family=Darumadrop+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Across store</title>
+  </head>
+
+  <body>
+    <!------
+      #HEADER (menu icon, title, logo icon)
+      ---->
+    <header class="header active" data-header>
+      <div class="container">
+        <div class="headline">
+          <ul class="navbar-list-row">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link active">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-1.html" class="navbar-link">Shop</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-2.html" class="navbar-link">Our Story</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-3.html" class="navbar-link">Across Family</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-4.html" class="navbar-link">FAQ</a>
+            </li>
+          </ul>
+          <button
+            class="nav-toggle-btn"
+            aria-label="open menu"
+            data-nav-toggler
+          >
+            <ion-icon class="menu-outline" name="menu-outline"></ion-icon>
+          </button>
+          <p class="headline-text">Across_Store</p>
+
+          <a href="#" class="logo">
+            <img class="img-logo" src="images/logo.png" alt="logo" />
+          </a>
+        </div>
+        <!------
+        #MENU
+        ---->
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <div class="headline">
+              <a href="" class="logo">
+                <img src="images/logo.png" width="50" height="50" alt="logo" />
+              </a>
+              <p class="headline-text">Across_Store</p>
+            </div>
+            <button
+              class="nav-toggle-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon
+                class="close-outline"
+                name="close-outline"
+                aria-hidden="true"
+              ></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link active">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-1.html" class="navbar-link">Shop</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-2.html" class="navbar-link">Our Story</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-3.html" class="navbar-link">Across Family</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-4.html" class="navbar-link">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="overlay" data-overlay data-nav-toggler=""></div>
+      </div>
+    </header>
+
+    <!------
+      #MAIN
+    ---->
+    <main class="homepage">
+      <article>
+        <!------
+        #HERO (only video)
+        ---->
+        <section class="section hero" aria-label="hero">
+          <video autoplay muted loop playsinline id="myPreview">
+            <source src="/videos/video preview.mp4" type="video/mp4" />
+          </video>
+        </section>
+        <!------
+        #FEATURED PRODUCTS (title + 4 products + btn "load more" + 2 products)
+        ---->
+        <section class="section featured-prod" aria-label="featured-prod">
+          <div class="container-featured">
+            <div class="section-title">
+              <p class="prod-title">Featured Products</p>
+            </div>
+            <div class="featured-wrapper">
+              <div class="wrapper-item">
+                <img
+                  class="img-item"
+                  src="images/featured-one.jpg"
+                  width="300px"
+                  height="300px"
+                  alt="lavanda"
+                />
+                <button class="quick-btn">Quick View</button>
+                <p class="item-text">Lavanda</p>
+                <p class="item-price">$89.00</p>
+                <div class="quick-view-container">
+                  <div class="quick-view-content">
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/featured-one.jpg"
+                          alt="lavanda"
+                        />
+                      </div>
+                    </div>
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/lavanda-hover.jpg"
+                          alt="Image 2"
+                        />
+                      </div>
+                    </div>
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/lavanda_3.jpg"
+                          alt="Image 3"
+                        />
+                      </div>
+                    </div>
+                    <div class="quick-description">
+                      <p class="item-quick-text">Lavanda</p>
+                      <p class="item-quick-price">$89.00</p>
+                    </div>
+                    <div class="size-block">
+                      <button class="size-btn">oversize</button>
+                      <button class="size-btn">oversize mini</button>
+                    </div>
+                    <!-- Add more images as needed -->
+                    <div class="nav-buttons">
+                      <button class="prev-btn">
+                        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                      </button>
+                      <button class="next-btn">
+                        <ion-icon
+                          name="arrow-forward-circle-outline"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper-item">
+                <img
+                  class="img-item"
+                  src="images/featured-two.jpg"
+                  width="300px"
+                  height="300px"
+                  alt="graphite"
+                />
+                <button class="quick-btn">Quick View</button>
+                <p class="item-text">Graphite</p>
+                <p class="item-price">$89.00</p>
+
+                <div class="quick-view-container">
+                  <div class="quick-view-content">
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/featured-two.jpg"
+                          alt="lavanda"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/graphite_2.jpg"
+                          alt="Image 2"
+                        />
+                      </div>
+                    </div>
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/graphite_3.jpg"
+                          alt="Image 3"
+                        />
+                      </div>
+                    </div>
+                    <div class="quick-description">
+                      <p class="item-quick-text">Graphite</p>
+                      <p class="item-quick-price">$89.00</p>
+                    </div>
+                    <div class="size-block">
+                      <button class="size-btn">oversize</button>
+                      <button class="size-btn">oversize mini</button>
+                    </div>
+                    <!-- Add more images as needed -->
+                    <div class="nav-buttons">
+                      <button class="prev-btn">
+                        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                      </button>
+                      <button class="next-btn">
+                        <ion-icon
+                          name="arrow-forward-circle-outline"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper-item">
+                <img
+                  class="img-item"
+                  src="images/featured-three.jpg"
+                  width="300px"
+                  height="300px"
+                  alt="tiffani"
+                />
+                <button class="quick-btn">Quick View</button>
+                <p class="item-text">Tiffani</p>
+                <p class="item-price">$89.00</p>
+                <div class="quick-view-container">
+                  <div class="quick-view-content">
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/featured-three.jpg"
+                          alt="lavanda"
+                        />
+                      </div>
+                    </div>
+                    <!-- Add more images here -->
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/tiffani.jpg"
+                          alt="Image 2"
+                        />
+                      </div>
+                    </div>
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/tiffani-hover.jpg"
+                          alt="Image 3"
+                        />
+                      </div>
+                    </div>
+                    <div class="quick-description">
+                      <p class="item-quick-text">Tiffani</p>
+                      <p class="item-quick-price">$89.00</p>
+                    </div>
+                    <div class="size-block">
+                      <button class="size-btn">oversize</button>
+                      <button class="size-btn">oversize mini</button>
+                    </div>
+                    <!-- Add more images as needed -->
+                    <div class="nav-buttons">
+                      <button class="prev-btn">
+                        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                      </button>
+                      <button class="next-btn">
+                        <ion-icon
+                          name="arrow-forward-circle-outline"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper-item">
+                <img
+                  class="img-item"
+                  src="images/featured-four.jpg"
+                  width="300px"
+                  height="300px"
+                  alt="flamingo"
+                />
+                <button class="quick-btn">Quick View</button>
+                <p class="item-text">Flamingo</p>
+                <p class="item-price">$89.00</p>
+                <div class="quick-view-container">
+                  <div class="quick-view-content">
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/featured-four.jpg"
+                          alt="lavanda"
+                        />
+                      </div>
+                    </div>
+                    <!-- Add more images here -->
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/flamingo-hover.jpg"
+                          alt="Image 2"
+                        />
+                      </div>
+                    </div>
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/flamingo_3.jpg"
+                          alt="Image 3"
+                        />
+                      </div>
+                    </div>
+                    <div class="quick-description">
+                      <p class="item-quick-text">Flamingo</p>
+                      <p class="item-quick-price">$89.00</p>
+                    </div>
+                    <div class="size-block">
+                      <button class="size-btn">oversize</button>
+                      <button class="size-btn">oversize mini</button>
+                    </div>
+                    <!-- Add more images as needed -->
+                    <div class="nav-buttons">
+                      <button class="prev-btn">
+                        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                      </button>
+                      <button class="next-btn">
+                        <ion-icon
+                          name="arrow-forward-circle-outline"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-wide">
+                <div class="wrapper-item">
+                  <img
+                    class="img-item"
+                    src="images/lime_1.jpg"
+                    width="300px"
+                    height="300px"
+                    alt="lime"
+                  />
+                  <button class="quick-btn">Quick View</button>
+                  <p class="item-text">Lime</p>
+                  <p class="item-price">$89.00</p>
+                  <div class="quick-view-container">
+                    <div class="quick-view-content">
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/lime_1.jpg"
+                            alt="lime"
+                          />
+                        </div>
+                      </div>
+                      <!-- Add more images here -->
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/lime_2.jpg"
+                            alt="lime 2"
+                          />
+                        </div>
+                      </div>
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/lime_3.jpg"
+                            alt="lime 3"
+                          />
+                        </div>
+                      </div>
+                      <div class="quick-description">
+                        <p class="item-quick-text">Lime</p>
+                        <p class="item-quick-price">$89.00</p>
+                      </div>
+                      <div class="size-block">
+                        <button class="size-btn">oversize</button>
+                        <button class="size-btn">oversize mini</button>
+                      </div>
+                      <!-- Add more images as needed -->
+                      <div class="nav-buttons">
+                        <button class="prev-btn">
+                          <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                        </button>
+                        <button class="next-btn">
+                          <ion-icon
+                            name="arrow-forward-circle-outline"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapper-item">
+                  <img
+                    class="img-item"
+                    src="images/viva-magenta_w_1.jpg"
+                    width="300px"
+                    height="300px"
+                    alt="viva magenta"
+                  />
+                  <button class="quick-btn">Quick View</button>
+                  <p class="item-text">Viva Magenta</p>
+                  <p class="item-price">$89.00</p>
+                  <div class="quick-view-container">
+                    <div class="quick-view-content">
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/viva-magenta_w_1.jpg"
+                            alt="viva magenta"
+                          />
+                        </div>
+                      </div>
+                      <!-- Add more images here -->
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/viva-magenta_w_2.jpg"
+                            alt="viva magenta 2"
+                          />
+                        </div>
+                      </div>
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/viva_magenta_w_3.jpg"
+                            alt="viva magenta 3"
+                          />
+                        </div>
+                      </div>
+                      <div class="quick-description">
+                        <p class="item-quick-text">Viva Magenta</p>
+                        <p class="item-quick-price">$89.00</p>
+                      </div>
+                      <div class="size-block">
+                        <button class="size-btn">oversize</button>
+                        <button class="size-btn">oversize mini</button>
+                      </div>
+                      <!-- Add more images as needed -->
+                      <div class="nav-buttons">
+                        <button class="prev-btn">
+                          <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                        </button>
+                        <button class="next-btn">
+                          <ion-icon
+                            name="arrow-forward-circle-outline"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="loadMoreContainer">
+              <button id="loadMoreBtn" class="load-more-btn">Load More</button>
+            </div>
+            <div class="featured-hidden">
+              <div class="wrapper-item-5">
+                <div class="wrapper-item">
+                  <img
+                    class="img-item"
+                    src="images/featured-five.jpg"
+                    width="300px"
+                    height="300px"
+                    alt="santorini"
+                  />
+                  <button class="quick-btn">Quick View</button>
+                  <div class="card-description">
+                    <p class="item-text">Santorini</p>
+                    <p class="item-price">$89.00</p>
+                  </div>
+                  <div class="quick-view-container">
+                    <div class="quick-view-content">
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/featured-five.jpg"
+                            alt="lavanda"
+                          />
+                        </div>
+                      </div>
+                      <!-- Add more images here -->
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/santorini_2.jpg"
+                            alt="Image 2"
+                          />
+                        </div>
+                      </div>
+                      <div class="img-description">
+                        <div class="img-wrapper">
+                          <img
+                            class="quick-img-item"
+                            src="images/santorini_3.jpg"
+                            alt="Image 3"
+                          />
+                        </div>
+                      </div>
+                      <div class="quick-description">
+                        <p class="item-quick-text">Santorini</p>
+                        <p class="item-quick-price">$89.00</p>
+                      </div>
+                      <div class="size-block">
+                        <button class="size-btn">oversize</button>
+                        <button class="size-btn">oversize mini</button>
+                      </div>
+                      <!-- Add more images as needed -->
+                      <div class="nav-buttons">
+                        <button class="prev-btn">
+                          <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                        </button>
+                        <button class="next-btn">
+                          <ion-icon
+                            name="arrow-forward-circle-outline"
+                          ></ion-icon>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper-item">
+                <img
+                  class="img-item"
+                  src="images/featured-six.jpg"
+                  width="300px"
+                  height="300px"
+                  alt="iced pine"
+                />
+                <button class="quick-btn">Quick View</button>
+                <div class="card-description">
+                  <p class="item-text">Iced Pine</p>
+                  <p class="item-price">$89.00</p>
+                </div>
+                <div class="quick-view-container">
+                  <div class="quick-view-content">
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/featured-six.jpg"
+                          alt="lavanda"
+                        />
+                      </div>
+                    </div>
+                    <!-- Add more images here -->
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/iced_pine_2.jpg"
+                          alt="Image 2"
+                        />
+                      </div>
+                    </div>
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/iced_pine_3.jpg"
+                          alt="Image 3"
+                        />
+                      </div>
+                    </div>
+                    <div class="quick-description">
+                      <p class="item-quick-text">Iced Pine</p>
+                      <p class="item-quick-price">$89.00</p>
+                    </div>
+                    <div class="size-block">
+                      <button class="size-btn">oversize</button>
+                      <button class="size-btn">oversize mini</button>
+                    </div>
+                    <!-- Add more images as needed -->
+                    <div class="nav-buttons">
+                      <button class="prev-btn">
+                        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                      </button>
+                      <button class="next-btn">
+                        <ion-icon
+                          name="arrow-forward-circle-outline"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="hideContainer">
+              <button id="hideBtn" class="hide-btn">Hide</button>
+            </div>
+          </div>
+        </section>
+        <!------
+        #LIMITED PRODUCTS (title + 2 products)
+        ---->
+        <section class="section limited-prod" aria-label="limited-prod">
+          <div class="container">
+            <div class="section-title">
+              <p class="prod-title">Limited Products</p>
+            </div>
+            <div class="wrapper">
+              <figure class="wrapper-item">
+                <img
+                  class="img-item"
+                  src="images/limited-one.jpg"
+                  width="320px"
+                  height="320px"
+                  alt="blue-mirage"
+                />
+                <button class="quick-btn">Quick View</button>
+                <p class="item-text">Blue Mirage</p>
+                <p class="item-price">$89.00</p>
+                <div class="quick-view-container">
+                  <div class="quick-view-content">
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/limited-one.jpg"
+                          alt="lavanda"
+                        />
+                      </div>
+                    </div>
+                    <!-- Add more images here -->
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/blue-mirage_2.jpg"
+                          alt="Image 2"
+                        />
+                      </div>
+                    </div>
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/blue-mirage_3.jpg"
+                          alt="Image 3"
+                        />
+                      </div>
+                    </div>
+                    <div class="quick-description">
+                      <p class="item-quick-text">Blue Mirage</p>
+                      <p class="item-quick-price">$89.00</p>
+                    </div>
+                    <div class="size-block">
+                      <button class="size-btn">oversize</button>
+                      <button class="size-btn">oversize mini</button>
+                    </div>
+                    <!-- Add more images as needed -->
+                    <div class="nav-buttons">
+                      <button class="prev-btn">
+                        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                      </button>
+                      <button class="next-btn">
+                        <ion-icon
+                          name="arrow-forward-circle-outline"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+              <figure class="wrapper-item">
+                <img
+                  class="img-item"
+                  src="images/limited-two.jpg"
+                  width="320px"
+                  height="320px"
+                  alt="cocoa"
+                />
+                <button class="quick-btn">Quick View</button>
+
+                <p class="item-text">Cocoa</p>
+                <p class="item-price">$89.00</p>
+                <div class="quick-view-container">
+                  <div class="quick-view-content">
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/limited-two.jpg"
+                          alt="lavanda"
+                        />
+                      </div>
+                    </div>
+                    <!-- Add more images here -->
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/cocoa.jpg"
+                          alt="Image 2"
+                        />
+                      </div>
+                    </div>
+                    <div class="img-description">
+                      <div class="img-wrapper">
+                        <img
+                          class="quick-img-item"
+                          src="images/cocoa-hover.jpg"
+                          alt="Image 3"
+                        />
+                      </div>
+                    </div>
+                    <div class="quick-description">
+                      <p class="item-quick-text">Cocoa</p>
+                      <p class="item-quick-price">$89.00</p>
+                    </div>
+                    <div class="size-block">
+                      <button class="size-btn">oversize</button>
+                      <button class="size-btn">oversize mini</button>
+                    </div>
+                    <!-- Add more images as needed -->
+                    <div class="nav-buttons">
+                      <button class="prev-btn">
+                        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                      </button>
+                      <button class="next-btn">
+                        <ion-icon
+                          name="arrow-forward-circle-outline"
+                        ></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <!------
+        #GALLERY (logo (linked) + account name (linked)+ followers + pics + see more btn)
+        ---->
+        <section class="section gallery" aria-label="gallery">
+          <div class="container">
+            <div class="inst-head">
+              <a href="https://www.instagram.com/across_store/?hl=en">
+                <img
+                  class="inst-logo"
+                  src="images/logo.png"
+                  width="100px"
+                  height="100px"
+                  alt="logo"
+                />
+              </a>
+              <div class="inst-text">
+                <p class="inst-text-title">across_store</p>
+                <p class="inst-text-followers">5k Followers</p>
+              </div>
+            </div>
+            <figure class="wrapper-inst">
+              <img
+                class="inst-img"
+                src="images/inst-one.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-two.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-three.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-four.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-five.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-six.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-seven.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-eight.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-nine.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <img
+                class="inst-img"
+                src="images/inst-ten.jpg"
+                width="320px"
+                height="320px"
+                alt=""
+              />
+              <div class="wrapper-inst-wide">
+                <img
+                  class="inst-img"
+                  src="images/inst-11.jpg"
+                  width="320px"
+                  height="320px"
+                  alt=""
+                />
+                <img
+                  class="inst-img"
+                  src="images/inst-12.jpg"
+                  width="320px"
+                  height="320px"
+                  alt=""
+                />
+              </div>
+            </figure>
+            <!--BUTTON SEE MORE-->
+            <div class="box-btn">
+              <a href="https://www.instagram.com/across_store/?hl=en">
+                <button class="more-btn">See more</button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!------
+        #OUR STORY (banner w active btn on it)
+        ---->
+        <section class="section story" aria-label="our story">
+          <div class="our-story">
+            <div class="image-overlay">
+              <img
+                class="our-story-img"
+                src="images/our-story-add.jpg"
+                width="100%"
+                alt="our story"
+              />
+              <img
+                class="our-story-add-2"
+                class="our-story-img"
+                src="images/our-story-add-2.jpg"
+                width="100%"
+                alt="our story 2"
+              />
+              <div class="our-story-btn">
+                <a href="index-2.html">
+                  <button class="our-btn">
+                    OUR<br />
+                    STORY
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!------
+        #PODCASTS (title + description + embeded link)
+        ---->
+        <section class="section podcasts">
+          <div class="container">
+            <header class="header-podcasts">Across Podcasts</header>
+            <p class="item-text podcasts">
+              Elevate your outdoor game with our inspiring audio lineup.
+            </p>
+            <div class="podcasts-wrapper">
+              <iframe
+                style="border-radius: 12px"
+                src="https://open.spotify.com/embed/show/1xpP2f83S179hcl8GtbOU2?utm_source=generator"
+                width="100%"
+                height="152"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <!------
+        #EMAILS (3 lines + input + btn)
+        ---->
+        <section class="section emails" aria-label="emails">
+          <div class="container friends">
+            <p class="emails-title">Across Friends</p>
+            <p class="emails-text">Join our squad now and get 10% off.</p>
+            <p class="emails-text">Don't worry, we won't spam ya.</p>
+
+            <input
+              class="emails-input"
+              type="email"
+              placeholder="Your Email Address..."
+              required
+            />
+            <button class="befriend-btn">befriend</button>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!------
+        #FOOTER
+       ---->
+    <footer>
+      <div class="container footer">
+        <img
+          class="footer-logo"
+          src="images/logo.png"
+          width="80px"
+          height="80px"
+          alt=""
+        />
+        <p class="menu-description">
+          Wrap yourself in the warmth of our sun-kissed hoodies, perfect for any
+          adventure
+        </p>
+        <div class="footer-menu">
+          <div class="footer-menu-block">
+            <p class="menu-item-head">Main Menu</p>
+            <a class="menu-item" href="#">Home</a>
+            <a class="menu-item" href="/index-1.html">Shop</a>
+            <a class="menu-item" href="/index-2.html">Across Family</a>
+            <a class="menu-item" href="/index-3.html">Our Story</a>
+            <a class="menu-item" href="/index-4.html">FAQ</a>
+          </div>
+          <div class="footer-menu-block">
+            <p class="menu-item-head">Customer Service</p>
+            <a class="menu-item" href="/index-4.html">Delivery</a>
+            <a class="menu-item" href="/index-4.html">Sizes & Types</a>
+            <a class="menu-item" href="/index-4.html">Returns</a>
+            <a class="menu-item" href="/index-4.html">Contacts</a>
+          </div>
+          <div class="footer-menu-block">
+            <p class="menu-item-head">Follow Us</p>
+            <a
+              class="ion-link"
+              href="https://www.instagram.com/across_store/?hl=en"
+              ><ion-icon class="logo-inst" name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+          <div class="footer-menu-block">
+            <div class="low-footer">
+              <p class="menu-text">Copyright 2023. Made by Liza G</p>
+              <a class="footer-element" href="">Terms and Conditions</a>
+              <a class="footer-element" href="">Privacy and Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

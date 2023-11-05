@@ -1,0 +1,276 @@
+<!--OUR STORY PAGE-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="our-story-styles.css" />
+
+    <link
+      rel="style"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+
+    <!--
+      - primary meta tags
+    -->
+    <title>ACROSS STORE</title>
+    <meta name="title" content="ACROSS STORE" />
+    <meta name="description" content="across store production" />
+
+    <!--
+      - favicon
+    -->
+    <link
+      rel="shortcut icon"
+      href="/images/favicon-32x32.png"
+      type="image/png"
+    />
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comme:wght@300;400;500;700&family=Darumadrop+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Across store</title>
+  </head>
+
+  <body>
+    <!------
+      #HEADER (menu icon, title, logo icon)
+      ---->
+    <header class="header active" data-header>
+      <div class="container">
+        <div class="headline">
+          <ul class="navbar-list-row">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link active">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-1.html" class="navbar-link">Shop</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-2.html" class="navbar-link">Our Story</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-3.html" class="navbar-link">Across Family</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-4.html" class="navbar-link">FAQ</a>
+            </li>
+          </ul>
+          <button
+            class="nav-toggle-btn"
+            aria-label="open menu"
+            data-nav-toggler
+          >
+            <ion-icon class="menu-outline" name="menu-outline"></ion-icon>
+          </button>
+          <p class="headline-text">Across_Store</p>
+
+          <a href="#" class="logo">
+            <img class="img-logo" src="images/logo.png" alt="logo" />
+          </a>
+        </div>
+        <!------
+        #MENU
+        ---->
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <div class="headline">
+              <a href="" class="logo">
+                <img src="images/logo.png" width="50" height="50" alt="logo" />
+              </a>
+              <p class="headline-text">Across_Store</p>
+            </div>
+            <button
+              class="nav-toggle-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon
+                class="close-outline"
+                name="close-outline"
+                aria-hidden="true"
+              ></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link active">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-1.html" class="navbar-link">Shop</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-2.html" class="navbar-link">Our Story</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-3.html" class="navbar-link">Across Family</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index-4.html" class="navbar-link">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="overlay" data-overlay data-nav-toggler=""></div>
+      </div>
+    </header>
+    <!------
+        #MAIN
+       ---->
+    <main>
+      <article>
+        <div class="container story">
+          <div class="section-title">
+            <div class="prod-title">Our Story: Behind The Brand</div>
+          </div>
+          <div class="mission-pics">
+            <img
+              class="story-image"
+              src="/images/our-story-hoodies-1.jpg"
+              width="350px"
+              height="450px"
+              alt=""
+            />
+            <img
+              class="story-image"
+              src="/images/our-story-hoodies.jpg"
+              width="350px"
+              height="450px"
+              alt=""
+            />
+            <img
+              class="story-image"
+              src="/images/our-story-hoodies-2.jpg"
+              width="350px"
+              height="450px"
+              alt=""
+            />
+            <div class="text-description">
+              <p class="text-description-1">
+                <strong>Across Store</strong>, led by CEO Konstantin Kan, is a
+                brand that seeks to inspire individuals of all ages and passions
+                to break free from society's expectations and embrace their
+                unique journeys.
+              </p>
+
+              <p class="text-description-2">
+                Our collection features an array of stylish hoodies that cater
+                to both the casual and sporty individual. We believe that
+                outdoor sports and activities are meant to be enjoyed without
+                unnecessary tension.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container mission">
+          <div class="mission">
+            <div class="mission-general">
+              <p class="mission-title">Our mission:</p>
+              <p class="mission-text">
+                We strive to cultivate a sense of unity and encouragement among
+                like-minded individuals who share a love for the great outdoors.
+              </p>
+              <p class="mission-moto">
+                People who haven't worn our hoodies say that you can't buy love
+                with money
+              </p>
+            </div>
+            <div class="mission-video">
+              <video autoplay muted loop playsinline id="ourStoryVideo">
+                <source src="/videos/our_story.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+        <!------
+        #EMAILS (3 lines + input + btn)
+        ---->
+        <section class="section emails" aria-label="emails">
+          <div class="container friends">
+            <p class="emails-title">Across Friends</p>
+            <p class="emails-text">Join our squad now and get 10% off.</p>
+            <p class="emails-text">Don't worry, we won't spam ya.</p>
+
+            <input
+              class="emails-input"
+              type="email"
+              placeholder="Your Email Address..."
+              required
+            />
+            <button class="befriend-btn">befriend</button>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!------
+        #FOOTER
+       ---->
+    <footer>
+      <div class="container footer">
+        <img
+          class="footer-logo"
+          src="images/logo.png"
+          width="80px"
+          height="80px"
+          alt=""
+        />
+        <p class="menu-description">
+          Wrap yourself in the warmth of our sun-kissed hoodies, perfect for any
+          adventure
+        </p>
+        <div class="footer-menu">
+          <div class="footer-menu-block">
+            <p class="menu-item-head">Main Menu</p>
+            <a class="menu-item" href="/index.html">Home</a>
+            <a class="menu-item" href="/index-1.html">Shop</a>
+            <a class="menu-item" href="#">Our Story</a>
+            <a class="menu-item" href="/index-3.html">Across Family</a>
+            <a class="menu-item" href="/index-4.html">FAQ</a>
+          </div>
+          <div class="footer-menu-block">
+            <p class="menu-item-head">Customer Service</p>
+            <a class="menu-item" href="/index-4.html">Delivery</a>
+            <a class="menu-item" href="/index-4.html">Sizes & Types</a>
+            <a class="menu-item" href="/index-4.html">Returns</a>
+            <a class="menu-item" href="/index-4.html">Contacts</a>
+          </div>
+          <div class="footer-menu-block">
+            <p class="menu-item-head">Follow Us</p>
+            <a
+              class="ion-link"
+              href="https://www.instagram.com/across_store/?hl=en"
+              ><ion-icon class="logo-inst" name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+          <div class="footer-menu-block">
+            <div class="low-footer">
+              <p class="menu-text">Copyright 2023. Made by Liza G</p>
+              <a class="footer-element" href="">Terms and Conditions</a>
+              <a class="footer-element" href="">Privacy and Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

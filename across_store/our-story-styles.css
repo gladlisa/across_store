@@ -1,0 +1,195 @@
+.mission {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 16px;
+  text-align: center;
+  gap: 50px;
+
+}
+
+.mission-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.mission-title:hover{
+  background-color:  #a2e4b8;
+  transition: 0.15s;
+
+}
+.container.mission {
+  padding-top: 50px;
+  background-color: var(--bg-white);
+
+}
+.mission-text {
+  padding-bottom: 50px;
+  font-size: 18px;
+  padding-inline: 18px;
+}
+.mission-moto {
+  font-family: Darumadrop One;
+  font-size: 35px;
+  line-height: 3rem;
+}
+.mission-pics {
+  margin-block-start: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;  
+}
+.text-description {
+  padding-inline: 18px;
+  font-size: 18px;
+  text-align: center;
+}
+#ourStoryVideo {
+  width: 350px;
+  height: auto;
+}
+.story-image {
+  width: 350px;
+  height: 450px;
+}
+.text-description-1 {
+  padding-block-end: 30px;
+  padding-block-start: 20px;
+}
+
+
+/**
+* responsive for larger than 575px screen
+*/
+@media (min-width: 575px){
+  /**
+  * REUSED STYLE
+  */
+  .container.story {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+  .container.mission {
+    max-width: 768px;
+  }
+ .text-description {
+    padding-inline: 32px;
+ }
+}
+/**
+* responsive for larger than 768px screen
+*/
+@media (min-width: 768px){
+
+  /**
+  * REUSED STYLE
+  */
+  .container.story {
+    max-width: 720px;
+  }
+  .container.mission {
+    max-width: 992px;
+  }
+ 
+  .mission-pics {
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+  }
+  .story-image {
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+  }
+  .mission {
+    padding-inline: 25px;
+  }
+  #ourStoryVideo {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+  }
+  .text-description-1, .text-description-2 {
+    text-align: start;
+  }
+}
+/**
+* responsive for larger than 992px screen
+*/
+@media (min-width: 992px) {
+
+ .container.story {
+   max-width: 950px;
+ }
+ .container.mission {
+  max-width: 1200px;
+}
+.story-image {
+  width: 280px;
+  height: 370px;
+}
+.mission {
+  padding-inline: 80px;
+}
+}
+/**
+* responsive for larger than 1200px screen
+*/
+@media (min-width: 1200px){
+  
+  /**
+  * REUSED STYLE
+  */
+
+  .container.story {
+    max-width: 1150px;
+  }
+  .container.mission {
+    max-width: 1400px;
+  }
+  .mission {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-inline: 30px;
+  }
+  .mission-general {
+    padding-inline: 80px;
+  }
+  .mission-pics {
+    justify-content: center;
+  }
+  .story-image {
+    width: 320px;
+    height: 420px;
+  }
+
+}
+/**
+* responsive for larger than 1400px screen
+*/
+@media (min-width: 1400px) {
+ 
+  /**
+  * REUSED STYLE
+  */
+  .container.story {
+    max-width: 1350px;
+    }
+    .container.mission {
+      max-width: 2500px;
+    }
+    .story-image {
+      width: 350px;
+      height: 470px;
+    }
+    .text-description {
+      padding-inline: 120px;
+
+    }
+  }

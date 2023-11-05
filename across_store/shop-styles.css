@@ -1,0 +1,112 @@
+
+  /**
+  * index-1
+  */
+.section.shop-all {
+  padding-block-end: 30px;
+}
+  .prod-title-special {
+    font-family: Darumadrop One;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .shop-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shop-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shop-general {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+ 
+   /**
+    * shop elements that you need to make more efficient
+    */
+ 
+    .shop-image {
+      width: 350px;
+      height: 450px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: background-image 0.15s;
+  }
+  
+
+.add-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.new-shop {
+  margin-block-start: 80px;
+}
+.add-info-1 {
+  text-decoration: underline;
+  margin-block-end: 10px;
+  font-size: 18px;
+}
+.add-info-2 {
+   color: #454545;
+   font-size: 18px;
+}
+.add-info-1, .add-info-2 {
+  letter-spacing: 0.1rem;
+}
+.shop-text {
+  margin-block-start: 10px;
+}
+
+.add-info {
+  margin-block-end: 20px;
+}
+.shop-item-text-sw {
+  margin-block-start: 10px;
+
+}
+
+/**
+* responsive for larger than 768px screen
+*/
+@media (min-width: 768px){
+  .shop-image {
+    width: 320px;
+    height: 400px;
+  }
+}
+/**
+* responsive for larger than 992px screen
+*/
+@media (min-width: 992px) {
+  .shop-image {
+    width: 350px;
+    height: 450px;
+  }
+}
+
+/**
+* responsive for larger than 1200px screen
+*/
+@media (min-width: 1200px){
+  .shop-image {
+    width: 320px;
+    height: 400px;
+  }
+  .shop.container {
+   padding-left: 30px;
+   padding-right: 30px;
+  }
+}
+ 
